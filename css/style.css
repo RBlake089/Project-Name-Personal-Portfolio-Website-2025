@@ -3,6 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    /* light mode */
+  --primary-blue: #1E90FF;
+  --secondary-dark-blue: #104E8B;
+  --accent-light-blue: #ADD8E6;
+  --background-white: #FFFFFF;
+  --text-black: #000000;
+  --neutral-gray: #A9A9A9;
+
+  /* dark mode */
+  --background-dark: #121212;
+  --text-light: #E0E0E0;
+  --neutral-gray-dark: #303030;
+}
 /* IDs */
 /* Classes */
 .navigation {
