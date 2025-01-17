@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: var(--background-white);
+    
+}
+h2,h1{
+    color:var(--primary-blue)
+}
+a{
+    color: var(--secondary-dark-blue);
 }
 
 :root {
@@ -9,7 +17,7 @@
   --primary-blue: #1E90FF;
   --secondary-dark-blue: #104E8B;
   --accent-light-blue: #ADD8E6;
-  --background-white: #FFFFFF;
+  --background-white: #ffffffd3;
   --text-black: #000000;
   --neutral-gray: #A9A9A9;
 
