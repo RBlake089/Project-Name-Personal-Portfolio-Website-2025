@@ -1,0 +1,43 @@
+img {
+  width: 400px;
+  height: 400px;
+}
+
+.profile {
+  display: flex;
+  
+  height: 50rem;
+}
+
+
+/* Styling for the navigation container */
+.nav-container {
+  padding: 10px 0;
+}
+
+/* Styling for the navigation list */
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+/* Styling for the navigation links */
+.navigation li {
+  margin: 0 2px; /* Add space between the links */
+}
+
+.navigation a {
+  text-decoration: none;
+
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 15px;
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Hover effect for links */
+.navigation a:hover {
+  background-color: #555; /* Slightly lighter shade on hover */
+  border-radius: 4px;
+}
