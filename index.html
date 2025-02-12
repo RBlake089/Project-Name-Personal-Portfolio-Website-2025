@@ -26,35 +26,124 @@
     <main>
       <section class="profile">
         <div>
-          <h1>Welcome to My Personal Portfolio</h1>
+          <h1>Robert Staton Blake</h1>
+          <h2>Front-End Web-developer</h2>
+          <img
+          src="./image/ui-profile-icon-vector.jpg"
+          alt="user profile picture"
+        />
+
           <p>
             I am Staton, an aspiring front-end web developer with a passion for
             coding and creativity. Explore my portfolio to see my journey and
             growth in web development.
           </p>
         </div>
-        <img
-          src="./image/ui-profile-icon-vector.jpg"
-          alt="user profile picture"
-        />
-        
       </section>
-      <a href="./pages/about.html" class="button">Learn More About Me</a>
-      <section class="quick-links">
+      
+      
+      <section>
+          <h2>About Me</h2>
+            <p>Hello! I’m Staton, a front-end web developer with a passion for building dynamic, user-friendly web applications.</p>
+            <div class="about-details">
+              <h3>Professional Experience</h3>
+              <p>
+                Throughout my journey, I have worked on several projects that have deepened my understanding of web development. I have hands-on experience in both individual and collaborative environments.
+              </p>
+              <ul>
+                <li>
+                  <strong>Group Project Experience:</strong> Collaborated in a team to develop a full-stack application, focusing on the front-end portion, ensuring seamless user interaction and design.
+                </li>
+                <li>
+                  <strong>Bootcamp Projects:</strong> Completed various projects during my bootcamp training, including a note-taking application and a weather app, showcasing my skills in creating practical, real-world applications.
+                </li>
+              </ul>
+            </div>
+        
+            <div class="skills">
+              <h3>Skills and Expertise</h3>
+              <p>
+                My technical expertise lies in front-end development, with a strong foundation in HTML, CSS, and JavaScript. I have also dabbled in back-end development and am committed to improving my skills in this area.
+              </p>
+              <ul>
+                <li><strong>Front-End Development:</strong> Proficient in HTML, CSS, and JavaScript, creating responsive and visually appealing websites.</li>
+                <li><strong>Frameworks:</strong> Familiar with React and actively working to deepen my understanding and usage of this powerful library.</li>
+                <li><strong>Back-End Development:</strong> Some experience in back-end technologies, which I am continuously striving to enhance.</li>
+              </ul>
+            </div>
+        
+            <div class="education-certifications">
+              <h3>Education & Certifications</h3>
+              <p>
+                <strong>Full-Stack Web Development Certificate:</strong> University of Central Florida, 2024
+              </p>
+            </div>
+        
+            <div class="career-goals">
+              <h3>Career Goals</h3>
+              <p>
+                My immediate goal is to excel as a front-end developer while expanding my back-end knowledge. I aim to work on projects that push the boundaries of web technology, enhance user experiences, and contribute to innovative solutions.
+              </p>
+            </div>
+        
+            <div class="personal-life">
+              <h3>Beyond Coding</h3>
+              <p>
+                Beyond coding, I have a background in 3D artistry, which complements my technical skills with creative insights. I also enjoy exploring new technologies and staying updated with industry trends.
+              </p>
+            </div>
+      </section>
+
+      
+      <section>
         <h2>Explore My Work</h2>
-        <ul>
-          <li><a href="./pages/project.html">View My Projects</a></li>
-          <li><a href="./pages/contact.html">Get in Touch</a></li>
-        </ul>
+        <button id="projects-btn">
+            <a href="./pages/project.html">PROJECTS</a>
+        </button>
       </section>
     </main>
 
     <footer>
-      <p>Contact me at: lilrsb@yahoo.com</p>
-      <p>
-        Follow me on social media: <a href="#">LinkedIn</a>,
-        <a href="#">Twitter</a>
-      </p>
+      <section class="contact-intro">
+        <h2>Contact Me</h2>
+        <p>
+          Feel free to reach out for any inquiries, collaborations, or if you just want to connect. I'm always open to new opportunities and exciting projects.
+        </p>
+      </section>
+  
+      <section class="contact-details">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p><strong>Email:</strong> lilrsb@yahoo.com</p>
+          <p><strong>Phone:</strong> (973) 204-6028</p>
+          <p><strong>Location:</strong> Orlando, FL</p>
+        </div>
+  
+        <div class="contact-form">
+          <h3>Send Me a Message</h3>
+          <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+  
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+  
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+  
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+  
+      <section class="social-media">
+        <h3>Follow Me</h3>
+        <ul>
+          <li><a href="#" target="_blank">LinkedIn</a></li>
+          <li><a href="#" target="_blank">GitHub</a></li>
+        </ul>
+      </section>
     </footer>
+  
   </body>
 </html>
