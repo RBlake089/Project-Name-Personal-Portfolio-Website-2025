@@ -1,5 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .nav-container-css{
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: center; 
+
+    background-color: antiquewhite;
+
+    padding: 10px;
+
+    list-style-type: none;
+
+}
+.profile-css{
+    background-color: rgb(16, 80, 80);
+    height: 40rem;
+}
+.about-me-css{
+    background-color: rgb(180, 211, 41);
+    height: 40rem;
+}
+.career-goals-css{
+    background-color: rgb(83, 41, 211);
+    height: 40rem;
+}
+.contact-form-css{
+    border: 2px solid black;
 }
