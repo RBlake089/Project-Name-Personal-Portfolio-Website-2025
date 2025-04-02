@@ -1,32 +1,229 @@
-*{
+/* Resetting padding, margin, and box-sizing */
+* {
     padding: 0;
     margin: 0;
-}
-
-.nav-container-css{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #0077b6; /* Chun-Li inspired blue */
+    padding: 1rem;
+  }
+  
+  .nav-container-css {
     display: flex;
-    gap: 10px;
-    justify-content: center; 
-
-    background-color: antiquewhite;
-
-    padding: 10px;
-
+    gap: 20px;
+    justify-content: center;
     list-style-type: none;
-
-}
-.profile-css{
-    background-color: rgb(16, 80, 80);
+  }
+  
+  .nav-container-css li {
+    font-size: 18px;
+  }
+  
+  .nav-container-css a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-container-css a:hover {
+    color: #f1c40f; /* Golden accent for hover */
+    transition: color 0.3s ease;
+  }
+  
+  /* Profile Section */
+  .profile-css {
+    background-color: #0077b6; /* Chun-Li blue */
+    color: white;
     height: 40rem;
-}
-.about-me-css{
-    background-color: rgb(180, 211, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .profile-css h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-css h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-css img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-css p {
+    font-size: 1.2rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  /* About Me Section */
+  .about-me-css {
+    background-color: #0077b6; /* Chun-Li blue */
+    color: white;
     height: 40rem;
-}
-.career-goals-css{
-    background-color: rgb(83, 41, 211);
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  .about-me-css h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-me-css p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  /* Career Goals Section */
+  .career-goals-css {
+    background-color: #f1c40f; /* Golden yellow */
+    color: #003366; /* Deep blue text */
     height: 40rem;
-}
-.contact-form-css{
-    border: 2px solid black;
-}
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  .career-goals-css h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .career-goals-css p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  /* Projects Section */
+  #projects-btn a {
+    text-decoration: none;
+    color: white;
+    background-color: #0077b6; /* Chun-Li blue */
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  #projects-btn a:hover {
+    background-color: #f1c40f; /* Golden hover effect */
+  }
+  
+  /* Contact Form Section */
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: #0077b6; /* Chun-Li blue */
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #f1c40f; /* Golden hover effect */
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #0077b6; /* Chun-Li blue */
+    color: white;
+    padding: 1rem;
+  }
+  
+  .social-media-css ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .social-media-css a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-media-css a:hover {
+    color: #f1c40f; /* Golden accent */
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .nav-container-css {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .profile-css {
+      height: auto;
+      padding: 3rem;
+    }
+  
+    .profile-css h1,
+    .profile-css h2 {
+      font-size: 2.5rem;
+    }
+  
+    .profile-css img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .about-me-css,
+    .career-goals-css {
+      height: auto;
+      padding: 2rem;
+    }
+  
+    .contact-form-css {
+      padding: 1.5rem;
+    }
+  }
+  
