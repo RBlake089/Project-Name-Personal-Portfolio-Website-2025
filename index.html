@@ -1,109 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="keywords"
+      content="Robert Staton Blake, front-end web developer, coding, creativity"
+    />
+    <meta name="author" content="Robert Staton Blake" />
+    <meta
+      name="description"
+      content="Staton Personal Portfolio - A front-end web developer with a passion for coding and creativity."
+    />
+    <meta name="og:title" content="Robert's Personal Portfolio" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="Robert Staton Blake, front-end web developer, coding, creativity" />
-  <meta name="author" content="Robert Staton Blake" />
-  <meta name="description" content="Staton Personal Portfolio - A front-end web developer with a passion for coding and creativity." />
-  <meta name="og:title" content="Robert's Personal Portfolio" />
-  
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="./css/home.css" />
-  <title>Robert's Personal Portfolio</title>
-</head>
+    <!-- Google Font for a modern look -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-  <!-- Navigation Bar -->
-  <header>
-    <nav>
-      <ul class="nav-container-css">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <title>Robert's Personal Portfolio</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header class="sticky-header">
+      <nav>
+        <ul class="nav-container-css">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-    <!-- Profile Section -->
-    <section class="profile-css" id="about">
-      <h1>Robert Staton Blake</h1>
-      <h2>Front-End Web Developer</h2>
-      <img src="./image/ui-profile-icon-vector.jpg" alt="User profile picture" />
-      <p>
-        I am Staton, an aspiring front-end web developer with a passion for coding and creativity. Explore my portfolio to see my journey and growth in web development.
-      </p>
-    </section>
+    <main>
+      <!-- Profile Section -->
+      <section class="profile-css" id="about">
+        <h1>Robert Staton Blake</h1>
+        <h2>Front-End Web Developer</h2>
+        <img
+          src="./image/ui-profile-icon-vector.jpg"
+          alt="User profile picture"
+        />
+        <p>
+          I am Staton, an aspiring front-end web developer with a passion for
+          coding and creativity. Explore my portfolio to see my journey and
+          growth in web development.
+        </p>
+      </section>
 
-    <!-- About Me Section -->
-    <section class="about-me-css">
-      <h2>About Me</h2>
-      <p>Hello! I’m Staton, a front-end web developer passionate about building dynamic and user-friendly web applications.</p>
-      
-      <h3>Professional Experience</h3>
-      <ul>
-        <li><strong>Group Project Experience:</strong> Developed a full-stack application, focusing on front-end design.</li>
-        <li><strong>Bootcamp Projects:</strong> Worked on several practical applications, including a note-taking app and a weather app.</li>
-      </ul>
-    </section>
+      <!-- About Me Section -->
+      <section class="about-me-css">
+        <h2>About Me</h2>
+        <p>
+          Hello! I’m Staton, a front-end web developer passionate about building
+          dynamic and user-friendly web applications.
+        </p>
 
-    <!-- Skills Section -->
-    <section>
-      <h3>Skills and Expertise</h3>
-      <ul>
-        <li><strong>Front-End Development:</strong> HTML, CSS, JavaScript, React.</li>
-        <li><strong>Back-End Development:</strong> Some experience in back-end technologies.</li>
-      </ul>
-    </section>
+        <h3>Professional Experience</h3>
+        <ul>
+          <li>
+            <strong>Group Project Experience:</strong> Developed a full-stack
+            application, focusing on front-end design.
+          </li>
+          <li>
+            <strong>Bootcamp Projects:</strong> Worked on several practical
+            applications, including a note-taking app and a weather app.
+          </li>
+        </ul>
+      </section>
 
-    <!-- Education Section -->
-    <section>
-      <h3>Education & Certifications</h3>
-      <p><strong>Full-Stack Web Development Certificate:</strong> University of Central Florida, 2024</p>
-    </section>
+      <!-- Skills Section -->
+      <section class="skills-css">
+        <h3>Skills and Expertise</h3>
+        <ul>
+          <li>
+            <strong>Front-End Development:</strong> HTML, CSS, JavaScript,
+            React.
+          </li>
+          <li>
+            <strong>Back-End Development:</strong> Some experience in back-end
+            technologies.
+          </li>
+        </ul>
+      </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-      <h2>Explore My Work</h2>
-      <button id="projects-btn"><a href="./pages/project.html">View Projects</a></button>
-    </section>
+      <!-- Education Section -->
+      <section class="education-css">
+        <h3>Education & Certifications</h3>
+        <p>
+          <strong>Full-Stack Web Development Certificate:</strong> University of
+          Central Florida, 2024
+        </p>
+        <!-- Projects Section -->
+        <h2>Explore My Work</h2>
+        <div id="projects-btn">
+          <a href="./pages/project.html" id="projects-btn">View Projects</a>
+        </div>
+        
+        
+      </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Feel free to reach out for collaborations or inquiries. I'm always open to new opportunities.</p>
+      <!-- Contact Section -->
+      <section id="contact" class="contact-css">
+        <h2>Contact Me</h2>
+        <p>
+          Feel free to reach out for collaborations or inquiries. I'm always
+          open to new opportunities.
+        </p>
 
-      <!-- Contact Form -->
-      <form action="#" method="post">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required />
+        <!-- Contact Form -->
+        <form action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
 
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
 
-  </main>
-
-  <!-- Footer Section -->
-  <footer>
-    <section class="social-media-css">
-      <h3>Follow Me</h3>
-      <ul>
-        <li><a href="#" target="_blank">LinkedIn</a></li>
-        <li><a href="#" target="_blank">GitHub</a></li>
-      </ul>
-    </section>
-  </footer>
-
-</body>
-
+    <!-- Footer Section -->
+    <footer>
+      <section class="social-media-css">
+        <h3>Follow Me</h3>
+        <ul>
+          <li><a href="#" target="_blank">LinkedIn</a></li>
+          <li><a href="#" target="_blank">GitHub</a></li>
+        </ul>
+      </section>
+    </footer>
+  </body>
 </html>
