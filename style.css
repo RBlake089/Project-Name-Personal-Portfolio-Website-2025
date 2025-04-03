@@ -32,39 +32,152 @@ footer {
 }
 /* ids */
 #about {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 30px; /* Space between child divs */
-    min-height: 100vh;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Space between child divs */
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
 }
- /* Styling for images */
- #about img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+/* Styling for images */
+#about img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
-#portfolio{
-    display: flex;
-    justify-content: center;
-    gap: 10%;
+#main-portfolio-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#portfolio {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+#skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#skills li {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#skills li:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+#skills img {
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+  margin-right: 10px;
+}
+/* Contact Section Styling */
+#contact {
+  min-height: 100vh;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#contact p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+#contact label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Submit Button Styling */
+#contact input[type="submit"] {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+#contact input[type="submit"]:hover {
+  background: #0056b3;
+}
+
+/* Social Links */
+#contact a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  text-decoration: underline;
 }
 
 /* class */
 .nav-container-css {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav-container-css ul {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
 }
 .btn {
   display: inline-block;

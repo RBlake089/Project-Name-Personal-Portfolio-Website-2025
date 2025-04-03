@@ -18,40 +18,40 @@
           </ul>
         </div>
       </nav>
-      <main></main>
-      <div id="about">
-        <div>
-          <h1>Robert S. Blake</h1>
-          <img
-            src="./image/ui-profile-icon-vector.jpg"
-            alt="profile image" />   
-          <p>Junior Front-End Web Developer</p>
-        </div>
 
-        <div>
-          <h2>About Me</h2>
-          <p>
-            I specialize in creating responsive and user-friendly websites using
-            modern web technologies.
-          </p>
+      <div>
+        <div id="about">
+          <div>
+            <h1>Robert S. Blake</h1>
+            <img src="./image/ui-profile-icon-vector.jpg" alt="profile image" />
+            <p>Junior Front-End Web Developer</p>
+          </div>
+
+          <div>
+            <h2>About Me</h2>
+            <p>
+              I specialize in creating responsive and user-friendly websites
+              using modern web technologies.
+            </p>
+          </div>
         </div>
       </div>
-
-      <a href="#portfolio" class="btn">View My Work</a>
     </header>
 
     <section>
       <h2>Portfolio</h2>
-      <div id="portfolio">
-        <div class="project">
-          <h3>Project 1</h3>
-          <p>A brief description of the project.</p>
-          <a href="#">Live Demo</a> | <a href="#">GitHub</a>
-        </div>
-        <div class="project">
-          <h3>Project 2</h3>
-          <p>A brief description of the project.</p>
-          <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+      <div id="main-portfolio-section">
+        <div id="portfolio">
+          <div class="project">
+            <h3>Project 1</h3>
+            <p>A brief description of the project.</p>
+            <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+          </div>
+          <div class="project">
+            <h3>Project 2</h3>
+            <p>A brief description of the project.</p>
+            <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+          </div>
         </div>
       </div>
       <h3 class="btn">View More</h3>
@@ -60,16 +60,69 @@
     <section id="skills">
       <h2>Skills</h2>
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>
+          <img src="./image/html-5.svg" alt="HTML Icon" />
+          HTML
+        </li>
+        <li>
+          <img src="./image/css.svg" alt="CSS Icon" />
+          CSS
+        </li>
+        <li>
+          <img src="./image/javascript.svg" alt="JavaScript Icon" />
+          JavaScript
+        </li>
+        <li>
+          <img src="./image/react.svg" alt="React Icon" />
+          React
+        </li>
       </ul>
     </section>
 
     <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: johndoe@example.com</p>
+      <h2>Let's Connect!</h2>
+      <p>
+        If you're interested in collaborating or hiring me for a front-end
+        development role, feel free to get in touch!
+      </p>
+
+      <form action="/submit_form" method="post">
+        <!-- Full Name Field -->
+        <label for="name">Full Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required
+        /><br /><br />
+
+        <!-- Email Field -->
+        <label for="email">Email Address:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        /><br /><br />
+
+        <!-- Message Field -->
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="How can I help?"
+          required
+        ></textarea
+        ><br /><br />
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit" />
+      </form>
+
+      <p>You can also reach me via:</p>
       <p>GitHub: <a href="#">github.com/johndoe</a></p>
       <p>LinkedIn: <a href="#">linkedin.com/in/johndoe</a></p>
     </section>
