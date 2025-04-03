@@ -4,4 +4,58 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f4f4f4;
+}
 
+header {
+  background: #333;
+  color: white;
+  padding: 50px 20px;
+}
+
+section {
+  padding: 20px;
+  background: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 20px;
+}
+
+/* class */
+.nav-container-css {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container-css ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.project {
+  background: #ddd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
