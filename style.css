@@ -30,6 +30,12 @@ footer {
   color: white;
   padding: 20px;
 }
+/* ids */
+#portfolio{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
 
 /* class */
 .nav-container-css {
@@ -58,4 +64,6 @@ footer {
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
+  height: 500px;
+  width: 500px;
 }
