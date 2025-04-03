@@ -15,7 +15,7 @@ body {
 header {
   background: #333;
   color: white;
-  padding: 50px 20px;
+  padding: 20px 20px;
 }
 
 section {
@@ -31,6 +31,23 @@ footer {
   padding: 20px;
 }
 /* ids */
+#about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px; /* Space between child divs */
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: #333;
+}
+ /* Styling for images */
+ #about img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
 #portfolio{
     display: flex;
     justify-content: center;
@@ -40,7 +57,7 @@ footer {
 /* class */
 .nav-container-css {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .nav-container-css ul {
